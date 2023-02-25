@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Montserrat:ital,wght@0,700;1,700&family=Prompt:wght@300&family=Tilt+Neon&display=swap');
+
+/* * {
+    margin: auto;
+} */
+
+body {
+    /* background-image: url(/img/todo2.jpg); */
+    background-color: aqua;
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+}
+
+.container {
+    width: 40%;
+    min-width: 450px;
+    position: absolute;
+    min-height: 100%;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    justify-content: center;
+    text-align: center;
+    border-radius: 12px;
+    padding: 164px;
+    margin: 130px;
+    font-family: 'Dancing Script', cursive;
+    /* font-family: 'Montserrat', sans-serif;
+    font-family: 'Prompt', sans-serif;
+    font-family: 'Tilt Neon', cursive; */
+    font-size: 30px;
+
+}
+
+#newTask input {
+    width: 83%;
+    height: 45px;
+    font-size: 25px;
+    /* font-family: 'Dancing Script', cursive; */
+    /* font-family: 'Montserrat', sans-serif; */
+    /* /* font-family: 'Prompt', sans-serif; */
+    font-family: 'Tilt Neon', cursive;
+
+}
+
+.btn {
+    position: relative;
+    height: 48px;
+    width: 76px;
+    float: right;
+    font-size: 30px;
+    font-weight: 500;
+    cursor: pointer;
+    border-radius: 3px;
+    color: chocolate;
+    background-color: bisque;
+    font-family: 'Tilt Neon', cursive;
+
+}
+
+#tasks {
+    background-color: rgb(243, 190, 151);
+    padding: 20px 3px;
+    margin: 10px;
+    border-radius: 3px;
+    position: relative;
+    width: 100%;
+
+}
+
+.task {
+    height: 50px;
+    margin-bottom: 10px;
+    padding: 8px 10px;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    cursor: pointer;
+    border: 1px solid black;
+
+}
+
+.delete {
+    position: relative;
+    height: 48px;
+    width: 76px;
+    float: right;
+    font-size: 30px;
+    font-weight: 500;
+    cursor: pointer;
+    border-radius: 3px;
+    /* color: chocolate; */
+    background-color: bisque;
+    font-family: 'Tilt Neon', cursive;
+
+}
+
+.task button {
+    background-color: bisque;
+    color: #120707;
+    height: 100%;
+    width: 40px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    outline: none;
+}
+
+@media screen and (max-width: 700px ) {
+    body {
+        margin: auto;
+        padding: 0px;
+        overflow: hidden;
+        background-color: aqua;
+    }
+
+    .container {
+        position: relative;
+        justify-content: center;
+        align-items: center;
+        /* display: flex; */
+        padding: 164px;
+        margin-top: 217px;
+
+
+    }
+
+    h2 {
+        font-size: 50px;
+        font-weight: bold;
+        justify-content: center;
+        text-align: center;
+    }
+
+    #tasks {
+        height: 50px;
+        width: 432px;
+        /* background-color: rgb(243, 190, 151); */
+        border-radius: 8px;
+        justify-content: center;
+        text-align: center;
+        display: block;
+
+
+    }
+
+    .task {
+        height: 50px;
+        margin-bottom: 10px;
+        padding: 8px 10px;
+        justify-content: center;
+        align-items: center;
+        justify-content: space-between;
+        display: flex;
+        cursor: pointer;
+        border: 1px solid black;
+
+    }
+
+    #newTask input {
+        font-family: 'Tilt Neon', cursive;
+
+        /* background-color: bisque; */
+    }
+
+    #push {
+        
+        width: 47px;
+        height: 51px;
+        font-size: small;
+    }
+
+}
